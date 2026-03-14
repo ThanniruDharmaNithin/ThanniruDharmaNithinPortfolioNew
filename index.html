@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanniru Dharma Nithin Portfolio | A Digital Resume</title>
+  <meta
+    name="description"
+    content="Thanniru Dharma Nithin Portfolio — CSE (AI & ML) Graduate, AI & ML Developer, Data Analytics, Data Scientist, Gen AI Enthusiast"
+  />
+  <meta
+    name="keywords"
+    content="Thanniru Dharma Nithin, AI, ML, Data Analytics, Data Scientist, Portfolio, Gen AI"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-loader" id="site-loader">
+    <div class="loader-core">
+      <div class="loader-ring loader-ring-1"></div>
+      <div class="loader-ring loader-ring-2"></div>
+      <div class="loader-ring loader-ring-3"></div>
+      <p>Loading Portfolio Experience...</p>
+    </div>
+  </div>
+
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">Thanniru Dharma Nithin</a>
+
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#publications" class="nav-link">Publication</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#certifications" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button id="hamburger" class="hamburger" aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section-dark">
+      <div class="hero-bg">
+        <div class="hero-gradient hero-gradient-1"></div>
+        <div class="hero-gradient hero-gradient-2"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-network"></div>
+        <div class="hero-dots"></div>
+
+        <div class="floating-data fd-1">AI</div>
+        <div class="floating-data fd-2">ML</div>
+        <div class="floating-data fd-3">Python</div>
+        <div class="floating-data fd-4">SQL</div>
+        <div class="floating-data fd-5">Data</div>
+        <div class="floating-data fd-6">NLP</div>
+        <div class="floating-data fd-7">CV</div>
+        <div class="floating-data fd-8">LLM</div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <p class="hero-kicker">Portfolio</p>
+
+          <h1 class="hero-name">
+            THANNIRU DHARMA NITHIN
+          </h1>
+
+          <p class="hero-roleline">
+            CSE (AI &amp; ML) Graduate · AI &amp; ML Developer · Data Analytics · Data Scientist · Gen AI Enthusiast
+          </p>
+
+          <div class="typing-wrap">
+            <span class="typing-label">Focused on</span>
+            <span id="typing-text" class="typing-text"></span>
+            <span class="cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            I build intelligent solutions across machine learning, analytics, automation, research,
+            and modern AI applications with a strong focus on clean design and practical impact.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="https://drive.google.com/file/d/1rM7hEk8yUlPi1bAMadyUVJ1OLaFPWGdA/view?usp=drive_link"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              View Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <a href="#projects" class="btn btn-secondary">
+              Explore Projects <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+
+          <div class="hero-mini-stats">
+            <div class="hero-mini-card">
+              <strong>12+</strong>
+              <span>Projects</span>
+            </div>
+            <div class="hero-mini-card">
+              <strong>1</strong>
+              <span>Publication</span>
+            </div>
+            <div class="hero-mini-card">
+              <strong>10+</strong>
+              <span>Certificates</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-shell">
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="profile-core">
+              <div class="profile-glow"></div>
+              <div class="profile-avatar">TDN</div>
+            </div>
+
+            <div class="hero-badge hero-badge-1">AI &amp; ML</div>
+            <div class="hero-badge hero-badge-2">Data Analytics</div>
+            <div class="hero-badge hero-badge-3">Gen AI</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-light section-about">
+      <div class="section-pattern section-pattern-teal"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Overview</span>
+          <h2>About Me</h2>
+          <p>Combining data, design, and intelligent systems for useful solutions.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="card glass-card reveal">
+            <p>
+              I am an AI &amp; ML-focused Computer Science graduate who enjoys building systems that
+              transform complex data into useful insights and practical results.
+            </p>
+            <p>
+              My work includes healthcare prediction, data analytics, machine learning models,
+              research projects, and Gen AI tools that improve productivity and decision-making.
+            </p>
+            <p>
+              I value clean architecture, polished design, meaningful visuals, and reliable problem-solving.
+            </p>
+          </div>
+
+          <div class="stats-grid reveal">
+            <div class="stat-card">
+              <h3>12+</h3>
+              <p>Major Projects</p>
+            </div>
+            <div class="stat-card">
+              <h3>1</h3>
+              <p>Publication</p>
+            </div>
+            <div class="stat-card">
+              <h3>4+</h3>
+              <p>Awards</p>
+            </div>
+            <div class="stat-card">
+              <h3>10+</h3>
+              <p>Certificates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section-mist">
+      <div class="section-pattern section-pattern-blue"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Foundation</span>
+          <h2>Education</h2>
+          <p>Academic background that shaped my technical and analytical thinking.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card card">
+              <span class="timeline-date">2021 – 2025</span>
+              <h3>B.Tech in Computer Science &amp; Engineering (AI &amp; ML)</h3>
+              <h4>Geethanjali College of Engineering and Technology</h4>
+              <p class="timeline-highlight">CGPA: 7.94 / 10.0</p>
+              <p>
+                Built strong knowledge in AI, ML, deep learning, computer vision, NLP,
+                algorithms, and data analysis.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card card">
+              <span class="timeline-date">2019 – 2021</span>
+              <h3>Intermediate (MPC)</h3>
+              <h4>Excellencia Junior College</h4>
+              <p class="timeline-highlight">CGPA: 9.1 / 10.0</p>
+              <p>
+                Strengthened analytical reasoning through Mathematics, Physics, and Chemistry.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card card">
+              <span class="timeline-date">2018 – 2019</span>
+              <h3>SSC</h3>
+              <h4>Sainik Puri High School</h4>
+              <p class="timeline-highlight">CGPA: 8.5 / 10.0</p>
+              <p>
+                Developed a strong academic base and early technology interest.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-darkblue">
+      <div class="section-pattern section-pattern-violet"></div>
+      <div class="container">
+        <div class="section-header reveal light-text">
+          <span class="section-label">Toolkit</span>
+          <h2>Technical Skills</h2>
+          <p>Technologies and capabilities I use to build complete solutions.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card card dark-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Programming &amp; Databases</h3>
+            <div class="chip-row">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>MySQL</span>
+              <span>C</span>
+              <span>Java</span>
+              <span>HTML</span>
+            </div>
+          </div>
+
+          <div class="skill-card card dark-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>Libraries &amp; Frameworks</h3>
+            <div class="chip-row">
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Scikit-learn</span>
+              <span>TensorFlow</span>
+              <span>React</span>
+              <span>Django</span>
+            </div>
+          </div>
+
+          <div class="skill-card card dark-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3>AI &amp; ML</h3>
+            <div class="chip-row">
+              <span>LLMs</span>
+              <span>Gen AI APIs</span>
+              <span>Deep Learning</span>
+              <span>NLP</span>
+              <span>Computer Vision</span>
+              <span>Predictive Modeling</span>
+            </div>
+          </div>
+
+          <div class="skill-card card dark-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Analytics &amp; Visualization</h3>
+            <div class="chip-row">
+              <span>Power BI</span>
+              <span>Tableau</span>
+              <span>Excel</span>
+              <span>Matplotlib</span>
+              <span>Seaborn</span>
+              <span>EDA</span>
+            </div>
+          </div>
+
+          <div class="skill-card card dark-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-gears"></i></div>
+            <h3>Tools &amp; Platforms</h3>
+            <div class="chip-row">
+              <span>Streamlit</span>
+              <span>Jupyter</span>
+              <span>Google Colab</span>
+              <span>GitHub</span>
+              <span>MySQL Workbench</span>
+            </div>
+          </div>
+
+          <div class="skill-card card dark-card reveal">
+            <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+            <h3>Strengths</h3>
+            <div class="chip-row">
+              <span>Problem Solving</span>
+              <span>Research</span>
+              <span>Presentation</span>
+              <span>Feature Engineering</span>
+              <span>Dashboard Thinking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-warm">
+      <div class="section-pattern section-pattern-gold"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Work</span>
+          <h2>Featured Projects</h2>
+          <p>Machine learning, analytics, research, and Gen AI projects.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Major Project</span>
+              <span class="project-year">2025</span>
+            </div>
+            <h3>Analyzing Depression Severity &amp; Classification</h3>
+            <p>
+              Multi-modal system using PHQ-9, facial expression analysis, and NLP on social posts
+              to estimate depression severity.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>NLP</span>
+              <span>Computer Vision</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/MAJOR-PROJECT-ANALYZING-DEPRESSION-SEVERITY-CLASSIFICATION.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Healthcare</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>VigorTrack</h3>
+            <p>
+              Health monitoring application with symptom tracking and ML-based risk assessment.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>Healthcare</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/MINI-PROJECT-VIGOR-TRACK.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Gen AI</span>
+              <span class="project-year">2024–2025</span>
+            </div>
+            <h3>Portfolio Studio AI Agent</h3>
+            <p>
+              Resume parsing and portfolio generation tool using Streamlit and OpenAI APIs.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>OpenAI API</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/portfolio-studio-AI-AGENT.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Gen AI</span>
+              <span class="project-year">2024–2025</span>
+            </div>
+            <h3>Thannirus Post Generator</h3>
+            <p>
+              AI tool that creates social content and dynamic response styles using GPT workflows.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>Streamlit</span>
+              <span>GPT</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/Thannirus-post-generator-AI-AGENT.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Career AI</span>
+              <span class="project-year">2024–2025</span>
+            </div>
+            <h3>JobNextOrbit AI Career Agent</h3>
+            <p>
+              Personalized LLM-powered agent for career guidance, resume support, and job planning.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>LLM</span>
+              <span>Streamlit</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/jobnextorbit-AI-AGENT.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Research</span>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>Early Stage Risk Prediction</h3>
+            <p>
+              Disease prediction system using Naive Bayes, Decision Tree, and Random Forest models.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Healthcare AI</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/Case-Study-on-Early-Stage-Risk-Prediction-by-Machine-Learning-Algorithms.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">ML</span>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>Dimensionality Reduction Analysis</h3>
+            <p>
+              Comparative study of PCA and LDA across classifiers and reduced feature spaces.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>PCA</span>
+              <span>LDA</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/Comparative-Analysis-of-Dimensionality-Reduction-Techniques-ML-PROJECT.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Deep Learning</span>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>Titanic Survival Prediction</h3>
+            <p>
+              Neural-network-based prediction with feature understanding and model behavior analysis.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>Deep Learning</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/COURSERA-DEEP-LEARNING-Titanic-Survival-Prediction-Using-Deep-Learning-An-Analysis-Report.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">AI Search</span>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>8-Puzzle Solver</h3>
+            <p>
+              Classical AI problem solving using BFS, DFS, and A* with heuristics.
+            </p>
+            <div class="chip-row small">
+              <span>Python</span>
+              <span>A*</span>
+              <span>Search</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/AI-PBL-ON-8-PUZZLE-GAME-USING-NUMBERS.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">Web App</span>
+              <span class="project-year">2022</span>
+            </div>
+            <h3>Assign Executed</h3>
+            <p>
+              Assignment portal with file submission support and centralized management flow.
+            </p>
+            <div class="chip-row small">
+              <span>HTML</span>
+              <span>Java</span>
+              <span>Web</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/WEB-TECHNOLOGY-PBL-ON-ASSIGN-EXECUTED.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+
+          <article class="project-card card reveal">
+            <div class="project-top">
+              <span class="project-tag">App</span>
+              <span class="project-year">2021</span>
+            </div>
+            <h3>Prio – Educational Social Impact App</h3>
+            <p>
+              Learning-based app focused on social impact and student engagement.
+            </p>
+            <div class="chip-row small">
+              <span>MIT App Inventor</span>
+              <span>Design</span>
+            </div>
+            <a
+              class="action-link"
+              href="https://github.com/ThanniruDharmaNithin/PRIO-SDG-HACKATHON-PROJECT-APP.git"
+              target="_blank"
+            >
+              View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATION -->
+    <section id="publications" class="section section-ice">
+      <div class="section-pattern section-pattern-cyan"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Research</span>
+          <h2>Publication</h2>
+          <p>Research contribution in healthcare machine learning.</p>
+        </div>
+
+        <div class="publication-card card reveal">
+          <div class="publication-pill">Scopus Indexed</div>
+          <h3>Case Study on Early-Stage Risk Prediction by Machine Learning Algorithms</h3>
+          <p class="publication-meta">
+            International Journal on Recent and Innovation Trends in Computing and Communication
+          </p>
+          <p class="publication-meta">
+            September 2023 · DOI: 10.17762/ijritcc.v11i9.9890
+          </p>
+          <p class="publication-author">Author: Thanniru Dharma Nithin</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-softdark">
+      <div class="section-pattern section-pattern-blue"></div>
+      <div class="container">
+        <div class="section-header reveal light-text">
+          <span class="section-label">Industry</span>
+          <h2>Experience</h2>
+          <p>Hands-on exposure that improved my technical mindset and execution.</p>
+        </div>
+
+        <div class="experience-card card dark-card reveal">
+          <span class="timeline-date">May – June 2023</span>
+          <h3>Ethical Hacking &amp; Cyber Security Intern</h3>
+          <h4>Supraja Technologies</h4>
+          <ul class="experience-list">
+            <li>Implemented USB physical security policies to protect organizational systems.</li>
+            <li>Reported 15+ vulnerabilities including SQL injection and related security issues.</li>
+            <li>Won a 24-hour cybersecurity hackathon to secure the internship.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section section-light">
+      <div class="section-pattern section-pattern-violet"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Highlights</span>
+          <h2>Achievements</h2>
+          <p>Recognition for creativity, performance, and execution.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card card reveal">
+            <div class="achievement-icon">🥇</div>
+            <h3>1st Prize</h3>
+            <p>Ideathon Hackathon 2024</p>
+            <span>Robotics Club, GCET</span>
+          </div>
+
+          <div class="achievement-card card reveal">
+            <div class="achievement-icon">🥉</div>
+            <h3>3rd Prize</h3>
+            <p>J-HUB Hackathon 2021</p>
+            <span>GCET</span>
+          </div>
+
+          <div class="achievement-card card reveal">
+            <div class="achievement-icon">🥈</div>
+            <h3>2nd Prize</h3>
+            <p>Science Exhibition Vaiseshika 2022</p>
+            <span>Demo Model Making</span>
+          </div>
+
+          <div class="achievement-card card reveal">
+            <div class="achievement-icon">💼</div>
+            <h3>Internship Offer</h3>
+            <p>12-Hour Hackathon</p>
+            <span>GCTC, March 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section section-warm">
+      <div class="section-pattern section-pattern-gold"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Learning</span>
+          <h2>Certificates</h2>
+          <p>Verified learning across analytics, AI, programming, and engineering.</p>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card card reveal">
+            <h3>Data Analytics with Gen AI</h3>
+            <p class="cert-org">Coding Ninjas</p>
+            <p>Analytics, Excel, SQL, Python, Power BI, Tableau, ML, Statistics, EDA, and Gen AI case studies.</p>
+            <div class="cert-links">
+              <a
+                class="action-link"
+                href="https://drive.google.com/file/d/12IKV592wJfcTZE6CtSWIR9oHUbwOLrhG/view?usp=drive_link"
+                target="_blank"
+              >
+                View Certificate - Analytics &amp; Excel <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a
+                class="action-link"
+                href="https://drive.google.com/file/d/1GpllRvcGiJkSqSmKA_N_3NU7cdlqQfjw/view?usp=drive_link"
+                target="_blank"
+              >
+                View Certificate - Python <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cert-card card reveal">
+            <h3>IBM Machine Learning Professional Certificate</h3>
+            <p class="cert-org">IBM via Coursera</p>
+            <p>Professional certificate covering supervised learning, unsupervised learning, pipelines, and applied ML concepts.</p>
+            <div class="cert-links">
+              <a
+                class="action-link"
+                href="https://drive.google.com/file/d/1MQLtqK1TyDmGRFEDO0u-MmE00Txf6gF2/view?usp=drive_link"
+                target="_blank"
+              >
+                View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cert-card card reveal">
+            <h3>Oracle Java Fundamentals &amp; Advanced Java</h3>
+            <p class="cert-org">Oracle Academy</p>
+            <p>Strong knowledge in Java fundamentals and advanced programming topics.</p>
+            <div class="cert-links">
+              <a
+                class="action-link"
+                href="https://drive.google.com/file/d/1YVwmIh_eREcjZ05bqLXGDxQrr4sWD0VJ/view?usp=drive_link"
+                target="_blank"
+              >
+                View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cert-card card reveal">
+            <h3>Introduction to Cybersecurity</h3>
+            <p class="cert-org">Cisco Academy</p>
+            <p>Foundational cybersecurity concepts and secure systems awareness.</p>
+            <div class="cert-links">
+              <a
+                class="action-link"
+                href="https://drive.google.com/file/d/1nNQDJBzbzlMImBbEuGSL3tVdqVnit68f/view?usp=drive_link"
+                target="_blank"
+              >
+                View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cert-card card reveal">
+            <h3>IoT Product-A-THON</h3>
+            <p class="cert-org">ABTECHVILLE LLP</p>
+            <p>Hands-on experience in IoT product design and implementation.</p>
+            <div class="cert-links">
+              <a
+                class="action-link"
+                href="https://drive.google.com/file/d/1WtdGnId9rmg5XiK2-H5sNk3wp5hEzJSX/view?usp=drive_link"
+                target="_blank"
+              >
+                View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="cert-card card reveal">
+            <h3>Merit Certificates</h3>
+            <p class="cert-org">Hackathon Recognition</p>
+            <p>Recognition from J-HUB and Robotica Ideathon events.</p>
+            <div class="cert-links">
+              <a
+                class="action-link"
+                href="https://drive.google.com/file/d/1A3N7zFz4RxpszPkETnG_hejcaweYOaty/view?usp=drive_link"
+                target="_blank"
+              >
+                View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-contact">
+      <div class="section-pattern section-pattern-blue"></div>
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Connect</span>
+          <h2>Contact Me</h2>
+          <p>Open to internships, full-time roles, and collaboration opportunities.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <a class="contact-card card" href="mailto:thannirudharmanithin2003@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>thannirudharmanithin2003@gmail.com</p>
+              </div>
+            </a>
+
+            <a class="contact-card card" href="tel:+917416650128">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 7416650128</p>
+              </div>
+            </a>
+
+            <a class="contact-card card" href="https://linkedin.com/in/thannirudharmanithin" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+              <div>
+                <h3>LinkedIn</h3>
+                <p>Open Profile</p>
+              </div>
+            </a>
+
+            <a class="contact-card card" href="https://github.com/ThanniruDharmaNithin" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <h3>GitHub</h3>
+                <p>View Repositories</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact-form-card card reveal">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" placeholder="Subject" required />
+              </div>
+              <div class="form-group">
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary full-btn">
+                Send Message
+              </button>
+              <p id="form-message" class="form-message"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Thanniru Dharma Nithin Portfolio | A Digital Resume</p>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/thannirudharmanithin" target="_blank">LinkedIn</a>
+        <a href="https://github.com/ThanniruDharmaNithin" target="_blank">GitHub</a>
+        <a href="mailto:thannirudharmanithin2003@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll To Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
